@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#CFCECC">
+    <androidx.cardview.widget.CardView
+        android:layout_width="180dp"
+        android:layout_height="220dp"
+        android:backgroundTint="#ffffff"
+        android:id="@+id/cardviewHostel"
+        app:cardCornerRadius="10dp"
+        android:layout_marginLeft="7dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true"
+        android:layout_marginVertical="100dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:src="@drawable/h1"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/HosImg" />
+
+
+
+        <TextView
+            android:id="@+id/txtHostel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hostel"
+            android:textSize="20sp"
+            android:layout_marginTop="120dp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="#000"></TextView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="180dp"
+        android:layout_height="220dp"
+        android:backgroundTint="#ffffff"
+        android:id="@+id/cardviewMess"
+        app:cardCornerRadius="10dp"
+        android:layout_marginLeft="7dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true"
+        android:layout_marginHorizontal="210dp"
+        android:layout_marginVertical="100dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:src="@drawable/mes1"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/messImg" />
+
+
+
+        <TextView
+            android:id="@+id/txtMess"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mess"
+            android:textSize="20sp"
+            android:layout_marginTop="120dp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="#000"></TextView>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="180dp"
+        android:layout_height="220dp"
+        android:backgroundTint="#ffffff"
+        android:id="@+id/cardviewFlats"
+        app:cardCornerRadius="10dp"
+        android:layout_marginLeft="7dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true"
+        android:layout_marginVertical="380dp"
+        >
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:src="@drawable/r1"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/ImgFlats" />
+
+
+
+        <TextView
+            android:id="@+id/txtFlats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Flats"
+            android:textSize="20sp"
+            android:layout_marginTop="120dp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="#000"></TextView>
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="180dp"
+        android:layout_height="220dp"
+        android:backgroundTint="#ffffff"
+        android:id="@+id/cardviewPGs"
+        app:cardCornerRadius="10dp"
+        android:layout_marginLeft="7dp"
+        app:cardElevation="8dp"
+        app:cardUseCompatPadding="true"
+        android:layout_marginHorizontal="210dp"
+        android:layout_marginVertical="380dp">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="90dp"
+            android:src="@drawable/hos1"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/PgsImg" />
+
+
+
+        <TextView
+            android:id="@+id/txtPgs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PG's"
+            android:textSize="20sp"
+            android:layout_marginTop="120dp"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="#000"></TextView>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>
+
+

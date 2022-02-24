@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingDefaultResource">
+
+    <ImageView
+        android:id="@+id/ImgPGAdd"
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/pgroom"></ImageView>
+
+    <TextView
+        android:id="@+id/AddPGCamera"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="160dp"
+        android:drawableStart="@drawable/ic_camera"></TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@+id/ImgPGAdd">
+
+        <TextView
+            android:id="@+id/txtPGCapacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/hosteledttextstyle"
+            android:drawableLeft="@drawable/ic_hostel"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:hint="PG Capacity"
+            android:padding="4dp"
+            android:textColor="#290D04"></TextView>
+
+        <EditText
+            android:id="@+id/edtPGAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtPGCapacity"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/hosteledttextstyle"
+            android:drawableLeft="@drawable/ic_email1"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:hint="PG Address"
+            android:padding="4dp"
+            android:textColorHint="#290D04"></EditText>
+
+        <EditText
+            android:id="@+id/edtPGCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtPGAddress"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/hosteledttextstyle"
+            android:drawableLeft="@drawable/ic_city1"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:hint="City"
+            android:padding="4dp"
+            android:textColorHint="#290D04"></EditText>
+
+        <EditText
+            android:id="@+id/edtPGContactNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtPGCity"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/hosteledttextstyle"
+            android:drawableLeft="@drawable/ic_phone1"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:hint="Contact Number"
+            android:inputType="number"
+            android:padding="4dp"
+            android:textColorHint="#290D04"></EditText>
+
+
+        <EditText
+            android:id="@+id/edtPGFacilities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtPGContactNo"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/hosteledttextstyle"
+            android:drawableLeft="@drawable/ic_rent1"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:hint="Facilities"
+            android:padding="4dp"
+            android:textColorHint="#290D04"></EditText>
+        <EditText
+            android:id="@+id/edtPGRent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtPGFacilities"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/hosteledttextstyle"
+            android:drawableLeft="@drawable/ic_rent1"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:hint="Rent"
+            android:padding="4dp"
+            android:textColorHint="#290D04"></EditText>
+
+
+        <Button
+            android:id="@+id/btnAddPG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtPGRent"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/btnroundedcorners"
+            android:backgroundTint="#E983341B"
+            android:hint="Add"
+            android:textColorHint="#fff"
+            android:textSize="20sp"></Button>
+
+
+    </RelativeLayout>
+</RelativeLayout>

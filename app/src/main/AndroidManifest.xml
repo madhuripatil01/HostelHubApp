@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hostelhb">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:appCategory="social"
+        android:icon="@drawable/appicon2"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.example.hostelhb.Activities.CustomerHomeActivity1"
+            android:label="@string/title_activity_customer_home1"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
+            android:name="com.example.hostelhb.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+
+        <activity
+            android:name="com.example.hostelhb.Activities.RegistrationAct"
+            android:theme="@style/AppTheme">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name="com.example.hostelhb.Activities.LoginActivity"
+            android:theme="@style/AppTheme">
+
+
+        </activity>
+
+        <activity
+            android:name="com.example.hostelhb.Activities.OwnerHomeActivity"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name="com.example.hostelhb.Activities.AddCustomerProfileActivity"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name="com.example.hostelhb.Activities.AddOwnerProfileActivity"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name="com.example.hostelhb.Activities.AddRoomsActivity"
+            android:theme="@style/AppTheme"></activity>
+
+        <activity
+            android:name="com.example.hostelhb.Activities.SearchActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity android:name="com.example.hostelhb.Activities.ShowHostelInfo" android:theme="@style/AppTheme">
+        </activity>
+
+        <activity android:name="com.example.hostelhb.Activities.ShowMesInfo" android:theme="@style/AppTheme">
+        </activity>
+
+        <activity android:name="com.example.hostelhb.Activities.ShowRoomsList" android:theme="@style/AppTheme">
+
+        </activity>
+        <activity android:name="com.example.hostelhb.Activities.Forget_Pass_Act" android:theme="@style/AppTheme"></activity>
+
+        <activity android:name="com.example.hostelhb.Activities.Appbar_Activity" android:theme="@style/AppTheme">
+
+        </activity>
+        <activity android:name=".Activities.AddHostelActivity" android:theme="@style/Theme.AppCompat"></activity>
+
+        <activity android:name=".Activities.AddMessActivity" android:theme="@style/Theme.AppCompat"></activity>
+
+        <activity android:name=".Activities.AddFlatsActivity" android:theme="@style/Theme.AppCompat"></activity>
+
+        <activity android:name=".Activities.AddPGActivity" android:theme="@style/Theme.AppCompat"></activity>
+
+        <activity android:name=".Activities.ShowFlatInfo" android:theme="@style/Theme.AppCompat"></activity>
+
+        <activity android:name=".Activities.ShowPGInfo" android:theme="@style/Theme.AppCompat"></activity>
+    </application>
+</manifest>

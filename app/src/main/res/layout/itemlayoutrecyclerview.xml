@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="4dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="2dp">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/relCustInqItem"
+    >
+    <LinearLayout
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/lnrInqImg"
+        >
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ImgInqCust"
+            android:layout_width="match_parent"
+            android:layout_height="172dp"
+            app:civ_border_color="#FF000000"
+            app:civ_border_width="2dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="#D5441304"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/lnrInqImg"
+        android:layout_marginLeft="5dp"
+        android:padding="4dp">
+
+
+        <TextView
+            android:id="@+id/txtCustInqName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="4dp"
+            android:textSize="20sp"
+            android:textColor="#fff"></TextView>
+
+        <TextView
+            android:id="@+id/txtCustInqContactNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="4dp"
+            android:textSize="20sp"
+            android:textColor="#fff"></TextView>
+
+        <TextView
+            android:id="@+id/txtCustInqFor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="4dp"
+            android:textSize="20sp"
+            android:textColor="#fff"></TextView>
+
+        <TextView
+            android:id="@+id/txtCustInqDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="4dp"
+            android:textSize="20sp"
+            android:textColor="#fff"></TextView>
+
+        <TextView
+            android:id="@+id/txtCustInqTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:padding="4dp"
+            android:textSize="20sp"
+            android:textColor="#fff"></TextView>
+    </LinearLayout>
+</RelativeLayout>
+</androidx.cardview.widget.CardView>

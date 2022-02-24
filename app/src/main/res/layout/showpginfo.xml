@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/btnroundedcorners"
+        android:backgroundTint="#320F0C0C"
+        >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/ImgPGShow"
+        android:src="@drawable/pgroom"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        ></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPGCapacity"
+        android:text="PG Capacity"
+        android:layout_below="@id/ImgPGShow"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btnroundedcorners"
+        android:backgroundTint="#C36F0404"
+        android:padding="4dp"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPGAddress"
+        android:text="Address"
+        android:layout_below="@id/txtPGCapacity"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnroundedcorners"
+        android:backgroundTint="#C36F0404"
+        android:padding="4dp"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPGCity"
+        android:text="City"
+        android:layout_below="@id/txtPGAddress"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnroundedcorners"
+        android:backgroundTint="#C36F0404"
+        android:padding="4dp"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtPGContactNo"
+        android:text="Contact No"
+        android:layout_below="@id/txtPGCity"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnroundedcorners"
+        android:backgroundTint="#C36F0404"
+        android:padding="4dp"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPGRent"
+            android:text="Rent"
+            android:layout_below="@id/txtPGContactNo"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btnroundedcorners"
+            android:backgroundTint="#C36F0404"
+            android:padding="4dp"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPGFacilities"
+            android:text="Facilities"
+            android:layout_below="@id/txtPGRent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btnroundedcorners"
+            android:backgroundTint="#C36F0404"
+            android:padding="4dp"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            ></TextView>
+
+        <Button
+            android:id="@+id/AddPGRatingBtn"
+            android:layout_width="160dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/txtPGFacilities"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+
+            android:background="@drawable/btnroundedcorners"
+            android:backgroundTint="#C36F0404"
+            android:text="Add Rating"
+            android:textColor="#fff"></Button>
+
+</RelativeLayout>
+</RelativeLayout>

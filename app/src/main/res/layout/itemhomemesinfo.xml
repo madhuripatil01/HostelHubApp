@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="40dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="2dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#95C2721E"
+        android:orientation="vertical"
+        android:id="@+id/relCustHomeFrg"
+        android:padding="4dp">
+
+        <ImageView
+            android:id="@+id/ShowImgMes"
+            android:layout_width="121dp"
+            android:layout_height="88dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="45dp"
+            android:src="@drawable/nw1"></ImageView>
+
+        <TextView
+            android:id="@+id/txtHomeMesName"
+            android:layout_width="281dp"
+            android:layout_height="39dp"
+            android:layout_marginLeft="-119dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@+id/ShowImgMes"
+            android:gravity="center"
+            android:padding="4dp"
+            android:text="Bendale College Hostel"
+            android:textColor="#832407"
+            android:textSize="20sp"></TextView>
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/ImgFavCHomeMes"
+            android:src="@drawable/ic_favorite"
+            android:layout_toRightOf="@+id/AddRateHomeMes"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="150dp"></ImageView>
+
+
+        <TextView
+            android:id="@+id/txtHomeMesContactNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:padding="2dp"
+            android:textSize="20sp"
+            android:textColor="#0A0808"
+            android:layout_toRightOf="@+id/ShowImgMes"
+            android:layout_below="@+id/txtHomeMesName"
+            android:text="989281982918"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/txtHomeMesAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:textSize="20sp"
+            android:textColor="#0A0808"
+            android:layout_toRightOf="@+id/ShowImgMes"
+            android:layout_below="@+id/txtHomeMesContactNo"
+            android:text="Prabhat chauk, jalgaon"
+            ></TextView>
+
+        <RatingBar
+            android:id="@+id/AddRateHomeMes"
+            style="@android:style/Widget.Material.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtHomeMesAddress"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:clickable="false"
+            android:visibility="visible"></RatingBar>
+
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

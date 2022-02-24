@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:contentPadding="2dp"
+    app:cardUseCompatPadding="true"
+    android:background="#D5BD7306"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="5dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:id="@+id/lnrFav"
+        android:layout_width="match_parent"
+        android:layout_height="241dp"
+        android:background="#AE551803"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/ic_cancel"
+            android:drawableTint="#F3EBEB"></TextView>
+
+        <TextView
+            android:id="@+id/txtFavName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#F3FCF7F7"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <ImageView
+            android:id="@+id/ImgFav"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            ></ImageView>
+
+        <TextView
+            android:id="@+id/txtFavAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:drawableStart="@drawable/ic_home"
+            android:drawablePadding="10dp"
+            android:drawableTint="#B3A1A1"
+            android:textColor="#fff"></TextView>
+
+        <TextView
+            android:id="@+id/txtFavContactNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:drawableStart="@drawable/ic_phone1"
+            android:drawablePadding="10dp"
+            android:drawableTint="#B3A1A1"
+            android:textColor="#fff"></TextView>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

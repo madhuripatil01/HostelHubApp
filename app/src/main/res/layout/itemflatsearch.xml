@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="140dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:contentPadding="2dp"
+    app:cardUseCompatPadding="true">
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="5dp"
+        android:orientation="vertical"
+        android:id="@+id/lnrSFlat"
+        >
+        <ImageView
+            android:id="@+id/ImgflatSearch"
+            android:layout_width="130dp"
+            android:layout_height="78dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/h1"></ImageView>
+
+        <TextView
+            android:id="@+id/txtflatSearchName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Bendale Girls Hostel"
+            android:textColor="#000"
+            android:textStyle="bold"></TextView>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

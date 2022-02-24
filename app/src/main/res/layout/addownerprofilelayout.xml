@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="@drawable/profcustomerback">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/layoutroundedcorners"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Owner"
+            android:textSize="30sp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:id="@+id/txtownerHead"
+            android:textColor="#fff"
+            android:fontFamily="cursive"
+            ></TextView>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextroundedcorner"
+            android:hint="User Name"
+            android:drawablePadding="10dp"
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:drawableLeft="@drawable/ic_person1"
+            android:id="@+id/edtGetOwnerName"
+            android:layout_below="@+id/txtownerHead"
+            android:textColorHint="#D2691E"
+            ></EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextroundedcorner"
+            android:hint="Contact No"
+            android:drawablePadding="10dp"
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:drawableLeft="@drawable/ic_phone1"
+            android:id="@+id/edtGetOwnerContactNo"
+            android:layout_below="@+id/edtGetOwnerName"
+            android:textColorHint="#D2691E"
+            android:inputType="number"
+            ></EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/edittextroundedcorner"
+            android:hint="Address"
+            android:drawablePadding="10dp"
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#D2691E"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:drawableLeft="@drawable/ic_address"
+            android:id="@+id/edtGetOwnerAddress"
+            android:layout_below="@+id/edtGetOwnerContactNo"
+            ></EditText>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btnroundedcorners"
+            android:textStyle="bold"
+            android:hint="Submit"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginRight="80dp"
+            android:textColorHint="#fff"
+            android:id="@+id/btnOwnerSubmit"
+            android:layout_below="@+id/edtGetOwnerAddress"></Button>
+    </RelativeLayout>
+</RelativeLayout>

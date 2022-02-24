@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="40dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="2dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#95C2721E"
+        android:orientation="vertical"
+        android:id="@+id/relCustHomeFrg"
+        android:padding="4dp">
+
+        <ImageView
+            android:id="@+id/ShowImgPG"
+            android:layout_width="121dp"
+            android:layout_height="88dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/pgroom"></ImageView>
+
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/ImgFavCHomePG"
+            android:src="@drawable/ic_favorite"
+            android:layout_toRightOf="@+id/AddRateHomePG"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="100dp"></ImageView>
+
+
+    <TextView
+        android:id="@+id/txtHomePGContactNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:padding="4dp"
+        android:textSize="20sp"
+        android:textColor="#0A0808"
+        android:layout_toRightOf="@+id/ShowImgPG"
+        android:text="989281982918"
+        ></TextView>
+
+    <TextView
+        android:id="@+id/txtHomePGAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20sp"
+        android:textColor="#0A0808"
+        android:layout_toRightOf="@+id/ShowImgPG"
+        android:layout_below="@+id/txtHomePGContactNo"
+        android:text="Prabhat chauk, jalgaon"
+        ></TextView>
+
+        <RatingBar
+            android:id="@+id/AddRateHomePG"
+            style="@android:style/Widget.Material.RatingBar.Indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtHomePGAddress"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="40dp"
+            android:isIndicator="true"></RatingBar>
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

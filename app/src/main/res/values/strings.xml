@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Hostel Hub</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="item_Capacity">
+        <item>1 Bed</item>
+        <item>2 Beds</item>
+        <item>3 Beds</item>
+        <item>4 Beds</item>
+        <item>5 Beds</item>
+        <item>6 Beds</item>
+    </string-array>
+    <string-array name="item_Type">
+        <item>1 RK</item>
+        <item>1 BHK</item>
+        <item>2 BHK</item>
+        <item>3 BHK</item>
+        <item>4 BHK</item>
+        <item>5 BHK</item>
+        <item>6 BHK</item>
+    </string-array>
+    <string-array name="item_Cap">
+        <item>1 </item>
+        <item>1 </item>
+        <item>2 </item>
+        <item>3 </item>
+        <item>4 </item>
+        <item>5 </item>
+        <item>6 </item>
+        <item>7 </item>
+        <item>8 </item>
+        <item>9 </item>
+        <item>10 </item>
+    </string-array>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_MyFavorates">My Favorates</string>
+    <string name="nav_Rating">My Rating</string>
+    <string name="nav_Search">Search</string>
+
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>My Favorate</item>
+        <item>Rating</item>
+    </string-array>
+    <string name="activity_title_Search">Serch</string>
+    <string name="title_activity_customer_home1">CustomerHomeActivity1</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+</resources>

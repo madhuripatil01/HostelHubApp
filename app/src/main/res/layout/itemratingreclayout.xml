@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="35dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="2dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DF913213"
+        android:orientation="vertical"
+        android:padding="4dp"
+        android:id="@+id/relRating">
+
+        <ImageView
+            android:id="@+id/ImgRateCustProf"
+            android:layout_width="83dp"
+            android:layout_height="106dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/prf3"></ImageView>
+
+        <TextView
+            android:id="@+id/txtCustRateName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toRightOf="@id/ImgRateCustProf"
+            android:padding="4dp"
+            android:textColor="#fff"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+        android:id="@+id/txtCustRateComment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="4dp"
+        android:textSize="20sp"
+        android:textColor="#fff"
+        android:layout_below="@+id/txtCustRateName"
+        android:layout_toRightOf="@+id/ImgRateCustProf"></TextView>
+
+        <RatingBar
+            android:id="@+id/CustRateStar"
+            style="@style/Widget.AppCompat.RatingBar.Indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtCustRateComment"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="20dp"
+            android:clickable="false"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:isIndicator="true"
+            android:numStars="5"
+            android:padding="4dp"
+            android:textColor="#fff"
+            android:textSize="14sp"></RatingBar>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

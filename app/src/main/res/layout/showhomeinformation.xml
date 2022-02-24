@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A6FFFFFF">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/btnroundedcorners"
+        android:backgroundTint="#320F0C0C"
+        >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/txtHosName"
+    android:hint="Name"
+    android:textAlignment="center"
+    android:textSize="25sp"
+    android:textColorHint="#6B0B0B"
+    android:textColor="#6B0B0B"
+   ></TextView>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/ImgHosShow"
+        android:layout_below="@+id/txtHosName"
+        android:src="@drawable/hos1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        ></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHAddress"
+        android:text="Address"
+        android:layout_below="@id/ImgHosShow"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btnroundedcorners"
+        android:backgroundTint="#C36F0404"
+        android:padding="4dp"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHContactNo"
+        android:text="Contact No."
+        android:layout_below="@id/txtHAddress"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnroundedcorners"
+        android:backgroundTint="#C36F0404"
+        android:padding="4dp"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHCity"
+        android:text="City"
+        android:layout_below="@id/txtHContactNo"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnroundedcorners"
+        android:backgroundTint="#C36F0404"
+        android:padding="4dp"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        ></TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHFacilities"
+        android:text="Mineral Water, Free WiFi"
+        android:layout_below="@id/txtHCity"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnroundedcorners"
+        android:backgroundTint="#C36F0404"
+        android:padding="4dp"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        ></TextView>
+
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/txtHFacilities"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="13dp"
+            android:src="@drawable/room1"
+            android:id="@+id/ImgClickOpenRoomList"></ImageView>
+
+        <Button
+            android:id="@+id/AddRatingBtn"
+            android:layout_width="124dp"
+            android:layout_height="34dp"
+            android:layout_below="@+id/txtHFacilities"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/ImgClickOpenRoomList"
+            android:background="@drawable/btnroundedcorners"
+            android:backgroundTint="#C36F0404"
+            android:text="Add Rating"
+            android:textColor="#fff"></Button>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtHFacilities"
+            android:layout_toRightOf="@id/AddRatingBtn"
+            android:layout_marginLeft="10dp"
+            android:textStyle="bold"
+            android:text="Inquiry"
+            android:id="@+id/BtnInq"
+            ></Button>
+    </RelativeLayout>
+</RelativeLayout>

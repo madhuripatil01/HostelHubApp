@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/hos1">
+
+        <LinearLayout
+            android:id="@+id/lnrProfOLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="196dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/hos1"
+            android:orientation="vertical">
+
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/RelProfOlayout"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="30dp"
+            android:background="#63251203">
+
+            <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/CustProfImg"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="85dp"
+                android:layout_marginTop="30dp"
+                android:src="@drawable/logperson"
+                app:civ_border_color="#FF000000"
+                app:civ_border_width="2dp" />
+
+            <TextView
+                android:id="@+id/txtCustCamera"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="100dp"
+                android:drawableStart="@drawable/ic_camera"></TextView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/RellayoutOProf"
+            android:layout_width="320dp"
+            android:layout_height="273dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/lnrProfOLayout"
+            android:background="#fff">
+
+            <TextView
+                android:id="@+id/txtProfCustName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/proftextviewstyle"
+                android:drawableLeft="@drawable/ic_person1"
+                android:drawablePadding="10dp"
+                android:drawableTint="#7000"
+                android:padding="4dp"
+                android:text="User Name"
+                android:textColor="#F536180D"
+                android:textSize="17sp"></TextView>
+
+            <TextView
+                android:id="@+id/txtProfCustAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtProfCustName"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/proftextviewstyle"
+                android:drawableLeft="@drawable/ic_address"
+                android:drawablePadding="10dp"
+                android:drawableTint="#7000"
+                android:padding="4dp"
+                android:text="Address"
+                android:textColor="#F536180D"
+                android:textSize="17sp"></TextView>
+
+            <TextView
+                android:id="@+id/txtProfCustConNo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtProfCustAddress"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/proftextviewstyle"
+                android:drawableLeft="@drawable/ic_phone1"
+                android:drawablePadding="10dp"
+                android:drawableTint="#7000"
+                android:padding="4dp"
+                android:text="Contact No."
+                android:textColor="#F536180D"
+                android:textSize="17sp"></TextView>
+
+            <TextView
+                android:id="@+id/txtProfCustEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtProfCustConNo"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/proftextviewstyle"
+                android:drawableLeft="@drawable/ic_email1"
+                android:drawablePadding="10dp"
+                android:drawableTint="#7000"
+                android:padding="4dp"
+                android:text="Email"
+                android:textColor="#F536180D"
+                android:textSize="17sp"></TextView>
+
+            <Button
+                android:id="@+id/btnSave"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtProfCustEmail"
+                android:layout_marginLeft="80dp"
+                android:layout_marginTop="10dp"
+
+                android:drawablePadding="10dp"
+                android:hint="Save"
+                android:textAlignment="textStart"
+                android:textColorHint="#F536180D"
+                android:textSize="20sp"
+                android:textStyle="bold"></Button>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

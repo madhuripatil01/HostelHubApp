@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="520dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/btnroundedcorners"
+        android:backgroundTint="#320F0C0C"
+        >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/ImgFlatShow"
+        android:src="@drawable/flat1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        ></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtFlatType"
+        android:text="Flat Type"
+        android:layout_below="@id/ImgFlatShow"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/btnroundedcorners"
+        android:backgroundTint="#C36F0404"
+        android:padding="4dp"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtFlatAddress"
+        android:text="Address"
+        android:layout_below="@id/txtFlatType"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnroundedcorners"
+        android:backgroundTint="#C36F0404"
+        android:padding="4dp"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtFlatCity"
+        android:text="City"
+        android:layout_below="@id/txtFlatAddress"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnroundedcorners"
+        android:backgroundTint="#C36F0404"
+        android:padding="4dp"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtFlatContactNo"
+        android:text="Contact No"
+        android:layout_below="@id/txtFlatCity"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btnroundedcorners"
+        android:backgroundTint="#C36F0404"
+        android:padding="4dp"
+        android:textColor="#fff"
+        android:textSize="15sp"
+        ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtFlatRent"
+            android:text="Rent"
+            android:layout_below="@id/txtFlatContactNo"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btnroundedcorners"
+            android:backgroundTint="#C36F0404"
+            android:padding="4dp"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtFlatFacilities"
+            android:text="Facilities"
+            android:layout_below="@id/txtFlatRent"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btnroundedcorners"
+            android:backgroundTint="#C36F0404"
+            android:padding="4dp"
+            android:textColor="#fff"
+            android:textSize="15sp"
+            ></TextView>
+
+        <Button
+            android:id="@+id/AddFlatRatingBtn"
+            android:layout_width="160dp"
+            android:layout_height="35dp"
+            android:layout_below="@+id/txtFlatFacilities"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="10dp"
+
+            android:background="@drawable/btnroundedcorners"
+            android:backgroundTint="#C36F0404"
+            android:text="Add Rating"
+            android:textColor="#fff"></Button>
+
+</RelativeLayout>
+</RelativeLayout>

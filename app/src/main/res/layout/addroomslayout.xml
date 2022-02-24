@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:gravity="center"
+    android:id="@+id/lnraddroom"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/CircuProfImg"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:src="@drawable/addroomfile"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_anchorGravity="top" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="230dp"
+        android:layout_marginTop="150dp"
+        android:layout_toRightOf="@+id/profile_image"
+        android:drawableRight="@drawable/ic_camera"
+        android:id="@+id/RoomAddCamera"></TextView>
+</RelativeLayout>
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="320dp"
+    android:id="@+id/Rellayout"
+        android:background="@drawable/layoutroundedcorners"
+        android:layout_below="@+id/lnraddroom"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+    >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtRoomHName"
+            android:background="@drawable/roomxmlfile"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Hostel Name"
+            android:padding="4dp"
+            android:drawableLeft="@drawable/ic_hostel"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:drawablePadding="10dp"
+            android:textColorHint="#290D04"></EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edtRoomNo"
+            android:background="@drawable/roomxmlfile"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Room No."
+            android:padding="4dp"
+            android:drawableLeft="@drawable/ic_roomno"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:drawablePadding="10dp"
+            android:layout_below="@+id/edtRoomHName"
+            android:textColorHint="#290D04"></EditText>
+        <EditText
+            android:id="@+id/edtRoomRent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtRoomNo"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/roomxmlfile"
+            android:drawableLeft="@drawable/ic_rent1"
+            android:drawablePadding="10dp"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:hint="Monthly Rent"
+            android:padding="4dp"
+            android:textColorHint="#290D04"></EditText>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtRoomCapacity"
+            android:background="@drawable/roomxmlfile"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:hint="Room Capacity"
+            android:padding="4dp"
+            android:drawableLeft="@drawable/ic_home"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:drawablePadding="10dp"
+            android:layout_below="@+id/edtRoomRent"
+            android:textColorHint="#290D04"></TextView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAddRoom"
+            android:layout_below="@+id/txtRoomCapacity"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginLeft="60dp"
+            android:background="@drawable/hosteledttextstyle"
+            android:backgroundTint="#D28F2301"
+            android:hint="Add Room"
+            android:textColorHint="#fff"
+            android:textSize="20dp"
+            android:textStyle="bold"
+
+            ></Button>
+    </RelativeLayout>
+</RelativeLayout>

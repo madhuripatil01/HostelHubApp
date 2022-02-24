@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#D32C2626">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnShowMesList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
+                android:drawableStart="@drawable/ic_mes"
+                android:drawablePadding="5dp"
+                android:text="Mess"></Button>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnShowHosList"
+                android:text="Hostel"
+                android:layout_marginLeft="40dp"
+                android:layout_toRightOf="@+id/btnShowMesList"
+                android:drawableStart="@drawable/ic_hostel"
+                android:drawablePadding="5dp"
+                ></Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnShowFlatList"
+                android:text="Flats"
+                android:layout_marginLeft="70dp"
+                android:layout_below="@+id/btnShowMesList"
+                android:drawableStart="@drawable/ic_flats"
+                android:drawablePadding="5dp"
+                ></Button>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnShowPGList"
+                android:text="Pg'S"
+                android:layout_marginLeft="40dp"
+                android:layout_below="@+id/btnShowMesList"
+                android:layout_toRightOf="@+id/btnShowFlatList"
+                android:drawableStart="@drawable/ic_hostel"
+                android:drawablePadding="5dp"
+                ></Button>
+
+        </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/RecViewCustHome"
+        android:layout_marginTop="20dp"
+        android:layout_margin="10dp"
+        ></androidx.recyclerview.widget.RecyclerView>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

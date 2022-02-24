@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hos1">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="118dp"
+        android:layout_height="123dp"
+        android:layout_marginLeft="120dp"
+        android:src="@drawable/logperson"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="2dp"
+        app:layout_anchor="@id/rellayoutlogin"
+        app:layout_anchorGravity="top" />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:background="@drawable/layoutroundedcorners"
+    android:layout_marginTop="100dp"
+    android:layout_marginLeft="30dp"
+    android:layout_marginRight="30dp"
+    android:id="@+id/rellayoutlogin"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textSize="30sp"
+        android:layout_marginTop="70dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:id="@+id/txtSignIn"
+        android:textColor="#D2691E"
+        ></TextView>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edtemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSignIn"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edittextroundedcorner"
+        android:drawableLeft="@drawable/ic_email1"
+        android:padding="5dp"
+        android:hint="Username"
+        android:textSize="20sp"
+        android:drawablePadding="10dp"
+        android:textColorHint="#D2691E"
+        ></com.google.android.material.textfield.TextInputEditText>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:passwordToggleContentDescription="password"
+        android:id="@+id/paawdLoglayout"
+        app:passwordToggleEnabled="true"
+        android:textColorHint="#D2691E"
+        android:layout_below="@+id/edtemail">
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtemail"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:drawableStart="@drawable/ic_lock1"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:background="@drawable/edittextroundedcorner"
+        android:padding="5dp"
+        android:id="@+id/edtpasswd"
+        android:textSize="20sp"
+        android:drawablePadding="10dp"
+        android:textColorHint="#D2691E"
+        ></com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/paawdLoglayout"
+        android:id="@+id/btnSignIn"
+        android:hint="Sign In"
+        android:textStyle="bold"
+        android:background="@drawable/btnroundedcorners"
+        android:textSize="20sp"
+        android:textColorHint="#fff"></Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="#fff"
+        android:text="Forget Password ?"
+        android:textStyle="bold"
+        android:id="@+id/txtforget">
+
+    </TextView>
+
+</RelativeLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

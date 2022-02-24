@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+           android:title="Home" />
+        <item
+            android:id="@+id/nav_Favorate"
+            android:icon="@drawable/ic_favorite"
+            android:title="My Favorates" />
+        <item
+            android:id="@+id/nav_rating"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile" />
+
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_Search"
+                android:title="Search"
+                android:icon="@drawable/ic_search"/>
+        </menu>
+    </item>
+
+</menu>
